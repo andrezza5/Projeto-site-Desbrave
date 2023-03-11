@@ -20,5 +20,23 @@ main {
 
 }
 
+@media only screen and (max-width: 530px) {
+    form {
+    padding: 12px;    
+    width: 80%;
+    }
+    
+    .container { 
+        display: flex;
+        flex-direction: column;    
+        margin: 36px;    
+        padding: 160px 0px;             
+    }
 
+    body {
+        margin:  -20px;
+    }
+
+
+}
 
